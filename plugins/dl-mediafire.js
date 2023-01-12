@@ -4,8 +4,8 @@ import { mediafiredl } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) => {
 	var limit
-     if((isOwner || isPrems)) limit = 500
-     else limit = 100
+     if((isOwner || isPrems)) limit = 999
+     else limit = 999
    if (!args[0]) throw `✳️ Ingrese el link de mediafire junto al comando`
     if (!args[0].match(/mediafire/gi)) throw `❎ Link incorrecto`
     m.react(rwait)
