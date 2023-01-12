@@ -28,7 +28,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-◈ ━━━━━ *DyLux  ┃ ᴮᴼᵀ* ━━━━━ ◈
+◈ ━━━━━ *BOBIZ  ┃ ᴮᴼᵀ* ━━━━━ ◈
  
 👋🏻 _Hola_ *%name*
 🧿 Nivel : *%level* 
@@ -36,13 +36,11 @@ const defaultMenu = {
 📈 Tiempo activo : %muptime
 ─────────────
 ▢ Crea tu propio bot 
-• https://youtu.be/xFqjKN1Qt80
-▢ Descarga *FGWhatsApp*
-• https://fgmods.epizy.com
+• instagram.com/noureddine_ouafy
+▢ BOBIZ BOT
 ─────────────
 %readmore
-Ⓟ = Premium
-ⓓ = Diamantes
+بوبيز بوت هو اول بوت عربي ♥
 -----  -----  -----  -----  -----
   ≡ *LISTA DE MENUS*
 `.trimStart(),
@@ -151,12 +149,12 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname }) => {
     
     let pp = './src/fg_logo.jpg'
     
-     /*conn.sendHydrated2(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, fgyt, 'YouTube', 'https://paypal.me/fg98f', 'PayPal', [
+     /*conn.sendHydrated2(m.chat, text.trim(), '▢ BOBIZ  ┃ ᴮᴼᵀ\n▢ follow me on Instagram\nhttps://www.instagram.com/noureddine_ouafy', pp, fgyt, 'YouTube', 'https://paypal.me/noureddineouafy', 'PayPal', [
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
     ], m)*/  
-    conn.sendButton(m.chat, text.trim(), '▢ DyLux  ┃ ᴮᴼᵀ\n▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff', pp, [
+    conn.sendButton(m.chat, text.trim(), '▢ BOBIZ  ┃ ᴮᴼᵀ\n▢ Follow me on Instagram\nhttps://www.instagram.com/noureddine_ouafy', pp, [
       ['ꨄ︎ Apoyar', `${_p}donate`],
       ['⏍ Info', `${_p}botinfo`],
       ['⌬ Grupos', `${_p}gpdylux`]
